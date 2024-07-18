@@ -67,7 +67,6 @@ const box3 = document.getElementById('box3')
 
 window.addEventListener('scroll', () => {
     const scrolled = window.scrollY
-    console.log(scrolled)
 
     if(scrolled >= 650){
         navbar.classList.add('introNavbar')
